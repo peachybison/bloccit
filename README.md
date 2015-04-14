@@ -25,6 +25,10 @@ Things you may want to cover:
 
 ## Bloccit: a Reddit replica to teach the fundamentals of web development and Rails.
 
+heroku:  jam-bloccit
+
+<a href=“heroku.jam-bloccit.com”>Approved Heroku Link</a>
+
 Made with my mentor at [Bloc](http://bloc.io).
 
 Please feel free to use a different markup language if you do not plan to run
