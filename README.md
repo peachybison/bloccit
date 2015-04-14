@@ -27,7 +27,7 @@ Things you may want to cover:
 
 heroku:  jam-bloccit
 
-<a href=“heroku.jam-bloccit.com”>Approved Heroku Link</a>
+<a href=“https://git.heroku.com/jam-bloccit.git”>Approved Heroku Link</a>
 
 Made with my mentor at [Bloc](http://bloc.io).
 
