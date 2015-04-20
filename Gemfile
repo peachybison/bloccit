@@ -13,6 +13,7 @@ group :production do
    gem "rails-erd"
    gem 'sqlite3'
    gem 'pry-rails'
+   gem 'annotate'
  end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'

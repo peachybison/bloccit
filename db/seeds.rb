@@ -16,7 +16,24 @@
      body: Faker::Lorem.paragraph
    )
  end
- 
+
+mp = {
+  title: "JAM Test Post",
+  body: "aaa bbb ccc"
+}
+
+if Post.where(title: mp[:title]).count == 0
+  Post.create(mp)
+end
+
+
+#   where()
+# Post.each do |pp|
+#   if pp.include?(mp)
+#     delete pp
+#   end
+# end
+
  puts "Seed finished"
  puts "#{Post.count} posts created"
  puts "#{Comment.count} comments created"
