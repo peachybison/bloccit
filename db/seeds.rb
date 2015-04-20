@@ -19,7 +19,7 @@
 
 mp = {
   title: "JAM Test Post",
-  body: "aaa bbb ccc"
+  body: "aaa bbb ccc ddd"
 }
 
 if Post.where(title: mp[:title]).count == 0
