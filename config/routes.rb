@@ -1,9 +1,9 @@
-Rails.application.routes.draw do
+Bloccit::Application.routes.draw do
 
-  get 'welcome/index'
-  get 'welcome/about'
-  get 'welcome/contact'
+  resources :posts
 
-  root to: 'welcome#contact'
+  get 'about' => 'welcome#about'
+
+  root to: 'welcome#index'
 
 end
