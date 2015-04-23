@@ -1,5 +1,3 @@
-ad_seeds.rb
-
  require 'faker'
  
  # Create Posts
@@ -7,7 +5,7 @@ ad_seeds.rb
    Advertisement.create!(
      title:  Faker::Lorem.sentence,
      body:   Faker::Lorem.paragraph,
-     price: Faker::Lorem.integer
+     price: rand(100)
    )
  end
  advertisements = Advertisement.all

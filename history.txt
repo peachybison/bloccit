@@ -1,0 +1,1122 @@
+    1  ..
+    2  ls
+    3  cd
+    4  ls
+    5  cd code
+    6  ls
+    7  ..
+    8  ls
+    9  ..
+   10  ls
+   11  ~
+   12  ls
+   13  cd code/git_test
+   14  ls
+   15  open readme.txt
+   16  git status
+   17  git add .
+   18  git status
+   19  git add readme.txt
+   20  git status
+   21  touch readme2.txt
+   22  ls
+   23  git add .
+   24  git status
+   25  git commit -m 'testing'
+   26  ls
+   27  git log
+   28  git status
+   29  git log
+   30  open readme.txt
+   31  open readme2.txt
+   32  git status
+   33  git add .
+   34  git commit -m 'testing du jour again'
+   35  git log
+   36  git checkout
+   37  git log
+   38  ls
+   39  git branch testing
+   40  ls
+   41  git log
+   42  git checkout testing
+   43  git branch testing
+   44  git checkout testing
+   45  ls
+   46  vim test.rb
+   47  git commit -a -m 'made a change'
+   48  ls
+   49  git checkout master
+   50  git branch
+   51  git branch -v
+   52  git branch --merged
+   53  git branch --no-merged
+   54  git branch -d testing
+   55  git branch
+   56  git checkout -b newer-branch
+   57  git branch
+   58  git status
+   59  open test.rb
+   60  git checkout master
+   61  ls
+   62  open test.rb
+   63  branch
+   64  git branch
+   65  git checkout new-branch
+   66  git branch
+   67  ls
+   68  open test.rb
+   69  ls
+   70  git branch
+   71  open readme.txt
+   72  git add .
+   73  git commit -m 'Added a really new line to a newer-branch'
+   74  git checkout master
+   75  open readme.txt
+   76  git branch
+   77  open readme.txt
+   78  git merge
+   79  ls
+   80  git branch
+   81  git log
+   82  git checkout newer-branch
+   83  ls
+   84  open readme.txt
+   85  git checkout new-branch
+   86  open readme.txt
+   87  git merge
+   88  git log
+   89  git checkout -b new-branch
+   90  git branch
+   91  git checkout master
+   92  git merge
+   93  git log
+   94  git branch
+   95  git merge new-branch
+   96  git log
+   97  git branch
+   98  ls
+   99  open readme.txt
+  100  git branch -d new-branch
+  101  git branch -d newer-branch
+  102  ls
+  103  git branch
+  104  open readme.txt
+  105  git add -p
+  106  git diff --staged
+  107  open readme.txt
+  108  git add -p
+  109  git commit -m "Checkpoint Assignment"
+  110  git log
+  111  git credential-osxkeychain
+  112  ~/.
+  113  ls
+  114  gem install githug
+  115  ls -a
+  116  ls
+  117  ls -a
+  118  git log
+  119  ls
+  120  ls -a
+  121  ls
+  122  cd code
+  123  ls
+  124  ls -a
+  125  cd git_test
+  126  ls
+  127  ls -a
+  128  git log
+  129  ~/.
+  130  ls
+  131  mkdir -p /usr/local/bin
+  132  ls
+  133  ../
+  134  ls
+  135  ~/.
+  136  ls
+  137  vim hello_world_with_vim.rb
+  138  ls
+  139  cat hello_world_with_vim.rb
+  140  ls
+  141  cd code
+  142  ls
+  143  rails new first-app
+  144  ls
+  145  cd first-app
+  146  ls
+  147  rails s
+  148  git init
+  149  subl .
+  150  sublime .
+  151  git status
+  152  git add .
+  153  git commit -m 'first commit'
+  154  git remote add origin https://github.com/peachybison/first-app.git
+  155  git push -u origin master
+  156  slbm
+  157  rails -d s
+  158  rails s -d
+  159  rails -h
+  160  rails s
+  161  lsof
+  162  -i 5965
+  163  lsoft
+  164  lsof
+  165  rails s
+  166  lsof
+  167  lsof -i :3000
+  168  kill 3000
+  169  kill -p 3000
+  170  kill -l
+  171  kill -P 3000
+  172  kill -p :3000
+  173  rails s
+  174  -i :3000
+  175  lsof -i :3000
+  176  kill -p 5886
+  177  kill -p :5886
+  178  gem 'sqlite3'
+  179  -gem 'sqlite3'
+  180  ls
+  181  open Gemfile
+  182  cd app
+  183  ls
+  184  cd controllers/
+  185  ls
+  186  open application_controller.rb
+  187  ls
+  188  ../
+  189  ls
+  190  ../
+  191  ls
+  192  cd config
+  193  ls
+  194  open routes.rb
+  195  rails s
+  196  bundle install --without production
+  197  git status
+  198  git add .
+  199  git commit -m 'Updated Gemfile for deployment to Heroku'
+  200  git push
+  201  ~/.
+  202  ls
+  203  heroku login
+  204  cd first-app
+  205  ls
+  206  cd code/first-app
+  207  ls
+  208  heroku create
+  209  git push heroku master
+  210  heroku apps:info
+  211  heroku open
+  212  ssh-keygen -t rsa
+  213  heroku keys
+  214  heroku keys:add
+  215  git push heroku master
+  216  heroku logs
+  217  heroku logs -5 > logs.txt
+  218  heroku -5 logs > logs.txt
+  219  -h
+  220  heroku -h
+  221  heroku --tail > logs.txt
+  222  heroku logs
+  223  heroku logs --tail > logs.txt
+  224  ls
+  225  open logs.txt
+  226  irb
+  227  subl
+  228  s
+  229  sublime
+  230  irb
+  231  ls
+  232  sublime .
+  233  ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+  234  subl
+  235  ls
+  236  ../
+  237  ls
+  238  ../
+  239  ls
+  240  cd code
+  241  ls
+  242  cd first-app
+  243  ls
+  244  open Gemfile
+  245  bundle
+  246  git status
+  247  git add .
+  248  git commit -m 'Bundling changes from Apr 6'
+  249  git push
+  250  heroku JA Martin
+  251  ls
+  252  git push heroku master
+  253  git status
+  254  git push
+  255  heroku open
+  256  irb
+  257  ls
+  258  cd code
+  259  ls
+  260  ..\\
+  261  
+  262  \..
+  263  ls
+  264  cd code
+  265  ls
+  266  rails new bloccit -T
+  267  ls
+  268  cd bloccit
+  269  ls
+  270  subl .
+  271  sublime
+  272  mv README.rdoc README.md
+  273  open README.md
+  274  ls
+  275  rake db:create
+  276  ls
+  277  open Gemfile
+  278  bundle install --without production
+  279  open README.md
+  280  git init
+  281  git add .
+  282  git commit -m 'First commit and README update'
+  283  git remote add origin https://github.com/peachybison/bloccit.git
+  284  git push -u origin master
+  285  rails s
+  286  lsof
+  287  lsof -i 3000
+  288  lsof -i pdi:3000
+  289  lsof -i tcp:3000
+  290  kill -9 5886
+  291  lsof -i tcp:3000
+  292  rails s
+  293  lsof -i tcp:3000
+  294  git add .
+  295  git commit -m 'Made the addition of first app, new_options'
+  296  git remote add origin https://github.com/peachybison/bloccit.git
+  297  git push -u origin master
+  298  rails new --help
+  299  ls
+  300  \..
+  301  ls
+  302  rails new banzai -T
+  303  ls
+  304  cd banzai
+  305  ls
+  306  mv README.rdoc README.md
+  307  open README.md
+  308  rake db:create
+  309  open Gemfile
+  310  bundle install --without production
+  311  git init
+  312  git add .
+  313  git commit -m 'First commit and README enhancement'
+  314  git remote add origin https://github.com/peachybison/banzai.git
+  315  git push -u origin master
+  316  rails new --help
+  317  pwd
+  318  ..\\
+  319  
+  320  ls
+  321  \..
+  322  ls
+  323  pwd
+  324  cd bloccit
+  325  ls
+  326  cd code/bloccit
+  327  ls
+  328  pwd
+  329  git branch
+  330  git checkout -b welcome-controller
+  331  git branch
+  332  rails g controller welcome index about
+  333  ls
+  334  subl .
+  335  open welcome_controller.rb
+  336  ls
+  337  cd app
+  338  ls
+  339  cd controllers
+  340  ls
+  341  open welcome_controller.rb
+  342  /..
+  343  ls
+  344  cd Users
+  345  ls
+  346  cd jam3jam
+  347  ls
+  348  cd code
+  349  ls
+  350  cd bloccit
+  351  ls
+  352  cd app
+  353  ls
+  354  cd views/welcome
+  355  ls
+  356  open index.html.erb
+  357  ls
+  358  open index.html
+  359  open index.html.erb
+  360  ls
+  361  /.
+  362  ls
+  363  cd Users
+  364  cd jam3jam
+  365  ls
+  366  cd code
+  367  ls
+  368  cd blo
+  369  cd bloccit
+  370  ls
+  371  rails s
+  372  rake routes
+  373  rails s
+  374  git statu
+  375  git status
+  376  git add .
+  377  git -m 'Created welcome controller with index and about views.'
+  378  git commit -m 'Created welcome controller with index and about views.'
+  379  git checkout master
+  380  git merge welcome-controller
+  381  git branch -d welcome-controller
+  382  git push
+  383  heroku login
+  384  heroku create <bloccit>
+  385  heroku create bloccit
+  386  heroku create jam-bloccit
+  387  git push heroku master
+  388  ls
+  389  git checkout -b static-pages-assignment
+  390  ls
+  391  cd views
+  392  ls
+  393  git branch
+  394  rails g controller contact
+  395  ls
+  396  cd app/controllers
+  397  ls
+  398  open welcome_controller.rb
+  399  ls
+  400  cd \.
+  401  ls
+  402  \.
+  403  /.
+  404  ls
+  405  cd
+  406  cd Users
+  407  ls
+  408  cd code
+  409  ls
+  410  cd bloccit
+  411  cd ~/
+  412  ls
+  413  cd ./
+  414  ls
+  415  cd code
+  416  ./
+  417  ls
+  418  cd bloccit
+  419  ls
+  420  cd ./
+  421  cd .
+  422  cd /.
+  423  ls
+  424  cd Users
+  425  ls
+  426  cd jam3jam
+  427  ls
+  428  cd code
+  429  ls
+  430  cd bloccit
+  431  ls
+  432  cd app
+  433  ls
+  434  cd controllers
+  435  ls
+  436  open welcome_controller.rb
+  437  rails 
+  438  rails s
+  439  ls
+  440  ./
+  441  ../
+  442  ls
+  443  ../
+  444  ls
+  445  rails g controller welcome index about contact
+  446  rails s
+  447  ls
+  448  cd app/views/welcome
+  449  ls
+  450  git add .
+  451  git commit -m "Complete static pages assignment"
+  452  git push origin static-pages-assignment
+  453  ls
+  454  ./
+  455  /.
+  456  cd
+  457  ls
+  458  cd code
+  459  ls
+  460  cd bloccit
+  461  ls
+  462  open README.md
+  463  git add .
+  464  git commit -m 'Added Heroku href'
+  465  git push
+  466  git checkout master
+  467  git merge static-pages-assignment
+  468  git push
+  469  git add .
+  470  git -b
+  471  git checkout
+  472  git checkout static-pages-assignment
+  473  git push origin static-pages-assignment
+  474  ls -al ~/.ssh
+  475  cd /Users/jam3jam/.ssh
+  476  ls
+  477  open id_rsa
+  478  eval "$(ssh-agent -s)"
+  479  ssh-add -l
+  480  ssh -T git@github.com
+  481  ls
+  482  ../
+  483  ls
+  484  cd
+  485  ssh -T git@github.com
+  486  ssh -vT git@github.com
+  487  git status
+  488  ls
+  489  cd code
+  490  ls
+  491  cd bloccit
+  492  ls
+  493  git status
+  494  ssh -vT git@github.com
+  495  ls
+  496  git checkout
+  497  git -b
+  498  git branch
+  499  git b
+  500  git branch
+  501  ls
+  502  git branch
+  503  git checkout -b modify-html
+  504  open app/views/welcome/index.html.erb
+  505  rake routes
+  506  rails s
+  507  git status
+  508  git add .
+  509  git commit -m 'Updated app layout and welcome views.'
+  510  git checkout master
+  511  git merge modify-html
+  512  git branch
+  513  git branch -d modify-html
+  514  git push
+  515  git push heroku master
+  516  ls
+  517  open README.md
+  518  git add .
+  519  git status
+  520  git add .
+  521  git commit -m 'Fixed Heroku link'
+  522  git push
+  523  git checkout -b html-assignment
+  524  git branch
+  525  rails s
+  526  git add .
+  527  git commit -m "HTML assignment completed"
+  528  git push origin html-assignment
+  529  git branch
+  530  git push origin html-assignment
+  531  git branch
+  532  git checkout master
+  533  git branch
+  534  git checkout -b bootstrap-css
+  535  rails s
+  536  pwd
+  537  ls
+  538  gem 'bootstrap-sass'
+  539  ls
+  540  ../
+  541  ls
+  542  gem 'bootstrap-sass'
+  543  ls
+  544  cd bloccit
+  545  ls
+  546  open Gemfile
+  547  ls
+  548  pwd
+  549  bundle install
+  550  open Gemfile
+  551  bundle install
+  552  ../
+  553  ls
+  554  cd banzai
+  555  ls
+  556  open Gemfile
+  557  ../
+  558  cd bloccit
+  559  open Gemfile
+  560  bundle install
+  561  pwd
+  562  bundle install
+  563  pwd
+  564  bundle install
+  565  ls
+  566  $ mv app/assets/stylesheets/application.css app/assets/stylesheets/application.scss
+  567  ls
+  568  mv app/assets/stylesheets/application.css app/assets/stylesheets/applications.scss
+  569  cd app
+  570  ls
+  571  cd asset
+  572  cd assets
+  573  ls
+  574  cd stylesheets
+  575  ls
+  576  open applications.scss
+  577  ls
+  578  ../
+  579  ls
+  580  pwd
+  581  bundle install
+  582  git status
+  583  rails s
+  584  git checkout -b css-assignment
+  585  git branch
+  586  git checkout master
+  587  ls
+  588  open Gemfile
+  589  bundle install
+  590  cd
+  591  ls
+  592  cd code/banz
+  593  cd code/banzai
+  594  ls
+  595  open Gemfile
+  596  ../
+  597  cd bloccit
+  598  open Gemfile
+  599  bundle install
+  600  open Gemfile
+  601  bundle install
+  602  rails s
+  603  git status
+  604  git add .
+  605  git rm app/assets/stylesheets/application.css
+  606  git commit -m 'Installed bootstrap and styled nav area.'
+  607  git checkout master
+  608  git merge bootstrap-css
+  609  bit branch -d bootstrap-css
+  610  git branch -d bootstrap-css
+  611  git branch
+  612  git push
+  613  git push heroku master
+  614  rails s
+  615  git add .
+  616  git commit -m "Complete CSS assignment WITHOUT Box"
+  617  git push origin css-assignment
+  618  heroku open
+  619  git commit -a
+  620  git pull origin master
+  621  git push origin master
+  622  ls -al ~/.ssh
+  623  ssh -T git@github.com
+  624  eval "$(ssh-agent -s)"
+  625  pbcopy < ~/.ssh/id_rsa.pub
+  626  pbcopy < ~/.ssh/github_rsa.pub
+  627  ssh-add ~/.ssh/github_rsa
+  628  history
+  629  pbcopy < ~/.ssh/github_rsa.pub
+  630  git push origin master
+  631  git branch -a
+  632  git remote -v
+  633  ls
+  634  cd ../
+  635  ls
+  636  mv bloccit bloccit-2
+  637  ls
+  638  git clone git@github.com:peachybison/bloccit.git
+  639  ls
+  640  bloccit-2
+  641  ls
+  642  subl
+  643  open ./
+  644  rails s
+  645  git branch
+  646  git checkout css-assignment
+  647  rails s
+  648  git push origin master
+  649  ls
+  650  s
+  651  cd
+  652  history
+  653  pbcopy < ~/.ssh/id_rsa.pub
+  654  ssh-add ~/.ssh/id_rsa
+  655  cd code/bloccit-2
+  656  git push origin master
+  657  ls
+  658  pwd
+  659  cd ./
+  660  pwd
+  661  ls
+  662  cd ../
+  663  ls
+  664  git clone git@github.com:peachybison/bloccit.git
+  665  git push origin master
+  666  ls
+  667  cd bloccit
+  668  ls
+  669  git push origin master
+  670  ls
+  671  vim README.md
+  672  git commit -a
+  673  git push origin master
+  674  history
+  675  rails s
+  676  bundle install
+  677  rails s
+  678  ls
+  679  cd app
+  680  ls
+  681  rails s
+  682  bundle install
+  683  rails s
+  684  bundle install
+  685  rails s
+  686  ruby -v
+  687  rails -v
+  688  git diff
+  689  git add .
+  690  open ./
+  691  pwd
+  692  cd ../
+  693  ls
+  694  cd ../
+  695  ls
+  696  rm -r bloccit-2
+  697  y
+  698  ls
+  699  rm -r bloccit-2
+  700  y
+  701  yls
+  702  ls
+  703  cd bloccit
+  704  rails s
+  705  ls
+  706  cd assets
+  707  ls
+  708  cd stylesheets
+  709  ls
+  710  mv applications.scss application.scss
+  711  ls
+  712  ssh-add -l
+  713  ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+  714  mkdir ~/bin
+  715  ls
+  716  ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+  717  subl ./
+  718  cd
+  719  ls
+  720  cd bin
+  721  ls
+  722  vim ~/.zshrc
+  723  subl ./
+  724  subl
+  725  ls
+  726  cd code/bloccit
+  727  subl .
+  728  history
+  729  vim ~/.zshrc
+  730  cd code/bloccit
+  731  subl .
+  732  history
+  733  rails g model Post title:string body:text
+  734  subl .
+  735  rails g model Comment body:text post:references
+  736  rake db:migrate
+  737  rm app/models/.keep
+  738  subl app/models/post.rb
+  739  git checkout -b assignment-24-models
+  740  rails g model Post title:string body:text
+  741  ls
+  742  git branch 
+  743  git checkout master
+  744  git add .
+  745  git commit m "Assignment 24 completed"
+  746  git commit -m "Assignment 24 completed"
+  747  git push origin master
+  748  git branch
+  749  git checkout assignment-24-models
+  750  git branch
+  751  rails g model Question title:string body:text resolved:boolean
+  752  rails g model Answer body:text
+  753  git branch
+  754  git add .
+  755  git commit -m "Assignment 24 completed"
+  756  git push origin assignment-24-models
+  757  git checkout master
+  758  git branch
+  759  git checkout -b checkpoint-24-work
+  760  git branch
+  761  subl .
+  762  bundle exec erd
+  763  brew install graphviz
+  764  bundle install
+  765  rake erd
+  766  git branch
+  767  rails g model Post title:string body:text
+  768  subl .
+  769  rails g model Comment body:text post:references
+  770  git branch
+  771  rails g model Question title:string body:text resolved:boolean 
+  772  rails g model Answer title:string body:text Question:references index:true
+  773  rake erd
+  774  ls
+  775  domain.relationships
+  776  domain = RailsERD::Domain:generate
+  777  domain = RailsERD::Domain.generate
+  778  question = Question.new
+  779  git branch
+  780  git add .
+  781  git commit -m "ASSIGNMENT 24 V2 COMPLETED"
+  782  git branch
+  783  git push origin checkpoint-24-work
+  784  git branch
+  785  rails c
+  786  git status
+  787  gem install pry
+  788  subl .
+  789  git branch
+  790  bundle install
+  791  rails c
+  792  ruby c
+  793  ls
+  794  pry
+  795  post = Post.first
+  796  post
+  797  rails c
+  798  git checkout -b seed-data
+  799  git branch
+  800  subl .
+  801  bundle install
+  802  pwd
+  803  subl .
+  804  rake db:seed
+  805  rake db:migrate
+  806  rake db:seed
+  807  rake db:migrate
+  808  --trace
+  809  db:migrate --trace
+  810  rake db:migrate
+  811  rake db:seed
+  812  rake db:migrate
+  813  rake db:seed
+  814  p Post
+  815  p Post.find
+  816  p = Post.find(3)
+  817  rails c
+  818  git checkout master
+  819  git branch
+  820  git checkout master
+  821  git add .
+  822  git commit -m "checkpoint-25-seed-data"
+  823  git push origin seed-data
+  824  git checkout master
+  825  git merge seed-data
+  826  git branch
+  827  ls
+  828  git checkout master
+  829  git branch
+  830  git checkout -b seed-data-assignment
+  831  rake db:seed
+  832  ruby c
+  833  rails c
+  834  rake db:seed
+  835  bundle install
+  836  git add .
+  837  git status
+  838  git commit -m "Checkpoint-24-Models Question lowercased in create_answers.rb"
+  839  git branch
+  840  git push origin seed-data-assignment
+  841  rake db:seed
+  842  git branch
+  843  rake erd
+  844  ls
+  845  open ./
+  846  rake erd --help
+  847  bundle install
+  848  bundle exec annotate
+  849  rails c
+  850  rake db:seed
+  851  bundle exec annotate
+  852  rake db:seed
+  853  rails c
+  854  rake db:reset
+  855  rake db:seed
+  856  rails c
+  857  rake db:seed
+  858  rake db:reset
+  859  rake db:seed
+  860  rails c
+  861  pry --help
+  862  man pry
+  863  git add .
+  864  git commit -m "Complete Seed Data Assignment"
+  865  git branch
+  866  git origin seed-data-assignment
+  867  git push origin seed-data-assignment
+  868  ssh-add -l
+  869  git push origin seed-data-assignment
+  870  eval "$(ssh-agent -s)"
+  871  ssh-add
+  872  eval "$(ssh-agent -s)"
+  873  ssh-add -l
+  874  ssh-add ~/.ssh/github_rsa
+  875  ssh-add -l
+  876  ls -al ~/.ssh
+  877  ssh-keygen -t rsa -C "jam212310@gmail.com"
+  878  git push origin seed-data-assignment
+  879  ssh-add ~/.ssh/attempt2_rsa
+  880  ssh add -l
+  881  ssh-add -l
+  882  pbcopy < ~/.ssh/attempt2_rsa
+  883  git push origin seed-data-assignment
+  884  pbcopy < ~/.ssh/attempt2_rsa
+  885  pbcopy < ~/.ssh/attempt2_rsa.pub
+  886  ssh -T git@github.com
+  887  git push origin seed-data-assignment
+  888  git branch
+  889  git checkout -b create-posts-controller
+  890  rails g controller Posts index show new edit
+  891  subl .
+  892  rake routes
+  893  rails s
+  894  git status
+  895  git add .
+  896  git commit -m "Checkpoint-27-CRUD"
+  897  git checkout master
+  898  git branch
+  899  git checkout create-posts-controller
+  900  git push origin create-posts-controller
+  901  git checkout master
+  902  git merge create-posts-controller
+  903  git branch -d create-posts-controller
+  904  git branch
+  905  git push heroku master
+  906  heroku login
+  907  git push heroku master
+  908  heroku open
+  909  heroku create
+  910  git push heroku master
+  911  heroku run rake db:migrate
+  912  git push heroku master
+  913  git checkout -b crud-assignment
+  914  git branch -a
+  915  git checkout master
+  916  git push origin master
+  917  heroku open
+  918  ssh-add -l
+  919  git remote
+  920  git remote -v
+  921  git remote rm heroku
+  922  git remote -v
+  923  git remote add heroku git@heroku.com:jam-bloccit.git
+  924  git push heroku master
+  925  heroku keys
+  926  heroku keys:remove jam3jam@Js-MacBook-Pro.local
+  927  heroku keys:add ~/.ssh/attempt2_rsa.pub
+  928  git push heroku master
+  929  heroku open
+  930  history
+  931  git branch
+  932  git checkout crud-assignment
+  933  git branch
+  934  rails g model Advertisement title:string, copy:text, price:integer
+  935  subl .
+  936  ls
+  937  rails g controller Advertisement index show
+  938  resources :advertisements
+  939  rails g controller Advertisements index show
+  940  get '/advertisements/:id', to: 'advertisements#show'
+  941  rails c
+  942  rails s
+  943  rake routes
+  944  rails s
+  945  rake db:migrate
+  946  rake db:drop
+  947  rake db:create
+  948  rake db:migrate
+  949  rails s
+  950  rake db:migrate
+  951  git branch
+  952  git checkout master
+  953  git branch -d crud-assignment
+  954  git branch
+  955  git merge assignment-24-models
+  956  git merge checkpoint-24-work
+  957  git merge seed-data
+  958  git merge seed-data-assignment
+  959  rails s
+  960  git branch
+  961  subl .
+  962  bundle install
+  963  rake db:migrate
+  964  bundle install
+  965  rake db:migrate
+  966  rails s
+  967  rake db:migrate
+  968  git log
+  969  git checkout -b old-state d8a508f57f5374e8b8798d925339c7a9020be493
+  970  git revert d8a508f57f5374e8b8798d925339c7a9020be493
+  971  git checkout master
+  972  git branch
+  973  git merge 
+  974  git merge assignment-24-models
+  975  git reset --hard d8a508f57f5374e8b8798d925339c7a9020be493
+  976  git branch
+  977  git merge seed-data
+  978  git merge seed-data-assignment
+  979  git merge assignment-24-models
+  980  git merge checkpoint-24-work
+  981  git -rm assignment-24-models
+  982  git branch -d assignment-24-models
+  983  git branch -D assignment-24-models
+  984  git branch
+  985  git branch -D checkpoint-24-work
+  986  git branch
+  987  git merge seed-data
+  988  rails s
+  989  rake mb:migrate
+  990  rake db:migrate
+  991  rake db:migrate --trace
+  992  git branch
+  993  git log
+  994  git revert 0e4562b01aca817a170a01f9f58a62acd55f9e18
+  995  git reset 0e4562b01aca817a170a01f9f58a62acd55f9e18
+  996  git branch
+  997  git merge seed-data
+  998  git branch -D seed-data
+  999  git branch -D seed-data-assignment
+ 1000  git branch
+ 1001  subl .
+ 1002  rails s
+ 1003  git branch
+ 1004  rake db:migrate
+ 1005  rails 
+ 1006  rails s
+ 1007  git checkout -b create-posts-controller
+ 1008  ls
+ 1009  git branch
+ 1010  rails g controller Posts index show new edit
+ 1011  rake routes
+ 1012  rails s
+ 1013  rake routes
+ 1014  rake db:migrate
+ 1015  rails s
+ 1016  rake db:seeds
+ 1017  rake db:seed
+ 1018  rails s
+ 1019  git branch
+ 1020  git status
+ 1021  git add .
+ 1022  git commit -m "2nd-attempt-create-posts-checkpoints"
+ 1023  git checkout master
+ 1024  git merge create-posts-controller
+ 1025  git branch -d create-posts-controller
+ 1026  git branch
+ 1027  git push origin master
+ 1028  open heroku
+ 1029  heroku open
+ 1030  git checkout -b crud-assignment
+ 1031  git branch
+ 1032  rails g model Advertisement title:string, copy:text, price:integer
+ 1033  rails g controller Advertisements index shows
+ 1034  rm app/models/.keep
+ 1035  ls
+ 1036  cd app
+ 1037  ls
+ 1038  cd models
+ 1039  ls
+ 1040  rails s
+ 1041  rake db:migrate
+ 1042  rails s
+ 1043  bin/rake db:migrate RAILS_ENV=development
+ 1044  rake db:migrate RAILS_ENV=development
+ 1045  rails s
+ 1046  git branch
+ 1047  git checkout master
+ 1048  rails s
+ 1049  rake db:migrate
+ 1050  rails s
+ 1051  git branch
+ 1052  git add .
+ 1053  git commit -m "Error in Crud Assignment"
+ 1054  git push origin crud-assignment
+ 1055  ls
+ 1056  git branch
+ 1057  subl .
+ 1058  /..
+ 1059  cd
+ 1060  cd code
+ 1061  cd bloccit
+ 1062  ls
+ 1063  subl .
+ 1064  rails s
+ 1065  rake db:migrate
+ 1066  bundle exec rake db:migrate
+ 1067  history
+ 1068  rake db:ad_seeds
+ 1069  rails 
+ 1070  rails s
+ 1071  git branch
+ 1072  git checkout crud-assignment
+ 1073  git commit -m "Error in Crud Assignment"
+ 1074  git push origin crud-assignment
+ 1075  git log
+ 1076  git add .
+ 1077  git commit -m "Error in Crud Assignment"
+ 1078  git push origin crud-assignment
+ 1079  git branch
+ 1080  rake db:migrate
+ 1081  git checkout master
+ 1082  rake db:migrate
+ 1083  rails s
+ 1084  git branch
+ 1085  git add .
+ 1086  git commit -m "No Name Error for advertisements/"
+ 1087  git push origin crud-assignment
+ 1088  git branch
+ 1089  rails s
+ 1090  rails 
+ 1091  rails s
+ 1092  git chekcout app/views/posts/index.html.erb
+ 1093  y
+ 1094  git checkout app/views/posts/index.html.erb
+ 1095  open post.rb
+ 1096  ls
+ 1097  rails s
+ 1098  git checkout app/controllers/posts_controller.rb
+ 1099  rails s
+ 1100  git checkout app/controllers/posts_controller.rb
+ 1101  git branch
+ 1102  rails g model Advertisement title:string copy:text price:integer
+ 1103  --force
+ 1104  rails g model Advertisement title:string copy:text price:integer --force
+ 1105  rails s
+ 1106  rake db:migrate
+ 1107  rails g model Advertisement title:string copy:text price:integer --force
+ 1108  rake db:migrate
+ 1109  rails s
+ 1110  rake db:migrate
+ 1111  rail s
+ 1112  rails s
+ 1113  rake db:ad_seeds
+ 1114  4*3
+ 1115  irb
+ 1116  rake db:ad_seeds
+ 1117  rails s
+ 1118  rake db:ad_seeds
+ 1119  rails c
+ 1120  :hide
+ 1121  historhiys
+ 1122  history
