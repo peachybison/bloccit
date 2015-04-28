@@ -44,6 +44,7 @@
  end
 
 mp = {
+  user:  users.sample,
   title: "JAM Test Post",
   body: "aaa bbb ccc ddd"
 }
