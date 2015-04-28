@@ -1,4 +1,4 @@
-class QuestionController < ApplicationController
+class QuestionsController < ApplicationController
   
   def index
   end
@@ -35,3 +35,4 @@ class QuestionController < ApplicationController
      render :edit
    end
   end
+end
