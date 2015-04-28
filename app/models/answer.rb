@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # == Schema Information
 #
 # Table name: answers
@@ -13,7 +12,4 @@
 
 class Answer < ActiveRecord::Base
   belongs_to :Question
-=======
-class Answer < ActiveRecord::Base
->>>>>>> assignment-24-models
 end
