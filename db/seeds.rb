@@ -47,6 +47,7 @@ mp = {
   user:  users.sample,
   title: "JAM Test Post",
   body: "aaa bbb ccc ddd"
+  comment: "d"
 }
 
 if Post.where(title: mp[:title]).count == 0

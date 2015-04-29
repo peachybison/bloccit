@@ -34,4 +34,5 @@ class QuestionController < ApplicationController
      flash[:error] = "There was an error saving your question. Please try again."
      render :edit
    end
-  end
+ end
+end

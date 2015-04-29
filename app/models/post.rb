@@ -14,5 +14,11 @@ class Post < ActiveRecord::Base
   belongs_to :user
 
   default_scope { order('created_at DESC') }
+  #scope :ordered_by_title, -> {where(title.sort: true)}
+
+  #def self.ordered_by_title
+   # order('title at desc').first
+  #end
+  
 
 end
