@@ -22,8 +22,24 @@
        <div class="form-group">
          <%= f.submit "Save", class: 'btn btn-success' %>
        </div>
+
+        <form>
+            <div>
+            <label><input type="checkbox" /> Resolved? </label>
+            </div>
+        </form>
+
         <div class="checkbox">
-         <%= f.submit "Resolved", class: 'btn btn-success' %>
+
+            <%= f.check_box :resolved, :class => "css_class"%>
+
+            <style type="text/css">
+            input.css_class
+            {
+            width: 30px;
+            height: 30px;
+            }
+            </style> 
        </div>
      <% end %>
    </div>
