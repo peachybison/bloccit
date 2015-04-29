@@ -13,10 +13,10 @@ class QuestionsController < ApplicationController
   def create
    @question = Question.new(params.require(:question).permit(:title, :body))
    if @question.save
-     flash[:notice] = "Post was saved."
+     flash[:notice] = "Question was saved."
      redirect_to @question
    else
-     flash[:error] = "There was an error saving the post. Please try again."
+     flash[:error] = "There was an error saving the question. Please try again."
      render :new
    end
   end
