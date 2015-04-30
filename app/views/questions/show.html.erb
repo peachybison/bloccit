@@ -4,11 +4,8 @@
 
 <p><%= @question.body %></p>
 
-Checkbox code:
+<%= check_box_tag "question", 'true', @question.resolved, :disabled => true %>
 
-<%= f.check_box :resolved, :class => "css_class" %>
-
-CSS code:
 
 <style type="text/css">
 input.css_class

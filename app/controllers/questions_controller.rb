@@ -1,9 +1,11 @@
 class QuestionsController < ApplicationController
   
   def index
+    @questions = Question.all
   end
 
   def show
+    @question = Question.find(params[:id])
   end
 
   def new
@@ -27,7 +29,7 @@ class QuestionsController < ApplicationController
 
   def update
    @question = Question.find(params[:id])
-   if @question.update_attributes(params.require(:question).permit(:title, :body))
+   if @question.update_attributes(params.require(:question).permit(:title, :body, :resolved))
      flash[:notice] = "Question was updated."
      redirect_to @question
    else
